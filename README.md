@@ -1,50 +1,65 @@
-# API REST - Projeto Full-Stack de Lista de Tarefas
+<h1 align="center">Lista de Tarefas - API REST</h1>
+<p align="center">API RESTful para um sistema de gerenciamento de tarefas (To-Do List), desenvolvida com Spring Boot.</p>
 
-API REST desenvolvida como o núcleo de uma aplicação full-stack de gerenciamento de tarefas. Este backend é responsável por toda a lógica de negócio e persistência de dados, servindo dois clientes diferentes: uma aplicação web em Angular e uma aplicação desktop em JavaFX.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-21-blue?style=for-the-badge&logo=java" alt="Java 21">
+  <img src="https://img.shields.io/badge/Spring_Boot-3-success?style=for-the-badge&logo=spring" alt="Spring Boot 3">
+  <img src="https://img.shields.io/badge/Maven-4-red?style=for-the-badge&logo=apache-maven" alt="Maven">
+  <img src="https://img.shields.io/badge/PostgreSQL-16-blue?style=for-the-badge&logo=postgresql" alt="PostgreSQL">
+</p>
 
----
+<details>
+  <summary><strong>📝 Sobre o Projeto</strong></summary>
+  <br>
+  Esta API foi criada para servir como o backend da aplicação "Lista de Tarefas". Ela gerencia todas as operações de CRUD (Criar, Ler, Atualizar e Deletar) para as tarefas, utilizando uma arquitetura RESTful.
 
-### Arquitetura da Solução
+  O projeto foi desenvolvido seguindo o tutorial "Projeto Aplicação Full Stack" do professor Ricardo Tec.
+</details>
 
-O projeto é dividido em três repositórios independentes que se comunicam via API REST, seguindo uma arquitetura de microsserviços desacoplada.
+## 🏛️ Arquitetura da Solução
 
--   **1. Backend (Este Repositório):**
-    -   API central construída com **Java e Spring Boot**.
-    -   Gerencia todas as operações CRUD (Criar, Ler, Atualizar, Deletar).
-    -   Utiliza um banco de dados em memória **H2** para facilitar o desenvolvimento.
+Este projeto corresponde à API (Backend) da aplicação "Lista de Tarefas". A solução completa é modularizada em três repositórios independentes para garantir a separação de responsabilidades.
 
--   **2. Frontend Web:**
-    -   Cliente web moderno construído com **Angular**.
-    -   Link para o repositório: `https://github.com/RafaelSilvaGomes/lista-tarefas-web`
+* **Backend (Este Repositório):** API RESTful desenvolvida com Spring Boot que serve como o núcleo da aplicação.
+* **Frontend (Web):** Interface web desenvolvida com Angular.
+    * ➡️ **Link para o repositório:** `[COLOQUE O LINK PARA O SEU REPOSITÓRIO FRONTEND AQUI]`
+* **Desktop:** Aplicação de desktop (a ser desenvolvida).
+    * ➡️ **Link para o repositório:** `[COLOQUE O LINK PARA O SEU REPOSITÓRIO DESKTOP AQUI]`
 
--   **3. Frontend Desktop:**
-    -   Cliente desktop nativo construído com **JavaFX**.
-    -   Link para o repositório: `https://github.com/RafaelSilvaGomes/lista-tarefas-desktop`
+## 💻 Tecnologias Utilizadas
 
-### Tecnologias Utilizadas
--   Java 21
--   Spring Boot 3
--   Spring Data JPA
--   Maven
--   H2 Database
+* **Linguagem:** Java 21
+* **Framework:** Spring Boot 3
+* **Banco de Dados:**
+    * H2 (Ambiente de Desenvolvimento)
+    * PostgreSQL (Ambiente de Produção)
+* **Gerenciamento de Dependências:** Maven
+* **Mapeamento Objeto-Relacional:** Spring Data JPA / Hibernate
 
-### Como Executar
-1.  **Pré-requisitos:** Ter o JDK 21 instalado.
-2.  Clone este repositório: `git clone https://github.com/RafaelSilvaGomes/lista-tarefas-api.git`
-3.  Abra o projeto em sua IDE (VS Code, IntelliJ, etc.).
-4.  Execute a classe principal `ListaTarefasApiApplication.java`.
-5.  Caso esteja no VS Code instale a extensão 'Spring Boot Dashboard'
-6.  Clique no icone da extensão e execute 'lista-tarefa-api'
-7.  A API estará rodando em `http://localhost:8080`.
+## 🚀 Como Executar o Projeto
 
-### Endpoints da API
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/lista-tarefas-api.git](https://github.com/seu-usuario/lista-tarefas-api.git)
+    ```
 
-| Método | URL                 | Descrição                      |
-| :----- | :------------------ | :----------------------------- |
-| `GET`  | `/api/tarefas`      | Lista todas as tarefas.        |
-| `POST` | `/api/tarefas`      | Cria uma nova tarefa.          |
-| `PUT`  | `/api/tarefas/{id}` | Atualiza uma tarefa existente. |
-| `DELETE`| `/api/tarefas/{id}` | Deleta uma tarefa.             |
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd lista-tarefas-api
+    ```
 
----
-**Autor:** Rafael Silva Gomes
+3.  **Configure o banco de dados** no arquivo `src/main/resources/application.properties`.
+
+4.  **Execute a aplicação:**
+    ```bash
+    mvn spring-boot:run
+    ```
+
+5.  A API estará disponível em `http://localhost:8080`.
+
+## Autor
+
+**Giovanni Zago**
+
+- LinkedIn: `[LINK PARA SEU LINKEDIN]`
+- GitHub: `[LINK PARA SEU GITHUB]`
