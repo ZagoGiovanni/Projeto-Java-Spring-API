@@ -22,7 +22,7 @@ Este projeto corresponde à API (Backend) da aplicação "Lista de Tarefas". A s
 
 * **Backend (Este Repositório):** API RESTful desenvolvida com Spring Boot que serve como o núcleo da aplicação.
 * **Frontend (Web):** Interface web desenvolvida com Angular.
-    * ➡️ **Link para o repositório:** `[COLOQUE O LINK PARA O SEU REPOSITÓRIO FRONTEND AQUI]`
+    * ➡️ **Link para o repositório:** `https://github.com/ZagoGiovanni/Projeto-Java-Spring-Web`
 * **Desktop:** Aplicação de desktop (a ser desenvolvida).
     * ➡️ **Link para o repositório:** `[COLOQUE O LINK PARA O SEU REPOSITÓRIO DESKTOP AQUI]`
 
