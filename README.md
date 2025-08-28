@@ -57,6 +57,13 @@ Este projeto corresponde à API (Backend) da aplicação "Lista de Tarefas". A s
 
 5.  A API estará disponível em `http://localhost:8080`.
 
+## Endpoints Principais
+
+* `GET /api/tarefas` - Lista todas as tarefas.
+* `POST /api/tarefas` - Cria uma nova tarefa.
+* `PUT /api/tarefas/{id}` - Atualiza uma tarefa existente.
+* `DELETE /api/tarefas/{id}` - Remove uma tarefa.
+
 ## Autor
 
 **Giovanni dos Santos Zago**
