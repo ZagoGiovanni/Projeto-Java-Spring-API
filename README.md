@@ -61,5 +61,5 @@ Este projeto corresponde à API (Backend) da aplicação "Lista de Tarefas". A s
 
 **Giovanni Zago**
 
-- LinkedIn: `[LINK PARA SEU LINKEDIN]`
-- GitHub: `[LINK PARA SEU GITHUB]`
+- LinkedIn: `https://www.linkedin.com/in/giovanni-zago-058891290/`
+- GitHub: `https://github.com/ZagoGiovanni`
