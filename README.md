@@ -24,7 +24,7 @@ Este projeto corresponde à API (Backend) da aplicação "Lista de Tarefas". A s
 * **Frontend (Web):** Interface web desenvolvida com Angular.
     * ➡️ **Link para o repositório:** `https://github.com/ZagoGiovanni/Projeto-Java-Spring-Web`
 * **Desktop:** Aplicação de desktop (a ser desenvolvida).
-    * ➡️ **Link para o repositório:** `[COLOQUE O LINK PARA O SEU REPOSITÓRIO DESKTOP AQUI]`
+    * ➡️ **Link para o repositório:** `https://github.com/ZagoGiovanni/Projeto-Java-Spring-Desktop`
 
 ## 💻 Tecnologias Utilizadas
 
