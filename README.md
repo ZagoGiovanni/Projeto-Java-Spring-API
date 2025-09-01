@@ -40,7 +40,7 @@ Este projeto corresponde à API (Backend) da aplicação "Lista de Tarefas". A s
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/lista-tarefas-api.git](https://github.com/seu-usuario/lista-tarefas-api.git)
+    git clone [https://github.com/ZagoGiovanni/Projeto-Java-Spring-API.git]
     ```
 
 2.  **Navegue até a pasta do projeto:**
